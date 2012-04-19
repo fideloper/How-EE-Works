@@ -1,14 +1,14 @@
 # This is how Expression Engine works
 
-This is a brief explanation behind content management in Expression Engine. This will be most useful to you if you already know what [Expression Engine is](http://expressionengine.com/) is before reading this.
+This is a brief explanation behind content management in Expression Engine. This will be most useful to you if you have a basic understanding of what [Expression Engine is](http://expressionengine.com/) is.
 
 ## Channels
-`Channels` are content types. A blog section is a content type. A video feed is a content type. An image rotator might be a content type, or it might be a presentation of another content type such as a blog. 
+`Channels` are content types. For example, a blog section is a content type. A video feed is a content type. An [image rotator](http://webdesignandsuch.com/posts/fancymoves/index.html) could be its own content type, or it could be the presentation of a content type, such as featured blog articles. 
 
 > "Channel" and "Content Type" are terms that are often used interchangably.
 
 ## Field Groups
-`Field Groups` are a collection of `Custom Fields` that belong together. A `Field Group` is assigned to a `Channel`. In this way, a `Channel` is given meaning and context by the type and grouping of fields it is assigned.
+`Field Groups` are a collection of `Custom Fields`. A `Field Group` is assigned to a `Channel`. In this way, a `Channel` is given meaning and context by the type and grouping of fields it is assigned.
 
 ## Custom Fields
 `Custom Fields` allow users to enter in content in various forms. *Common* custom fields include:
@@ -21,7 +21,7 @@ This is a brief explanation behind content management in Expression Engine. This
 * Dropdown Menus
 * Third-party
 
-Third-party fieldtypes are fields that extend or create new ways for users to enter and organize content. Examples include [Matrix](http://pixelandtonic.com/matrix), which allows multiple data points to be assigned to one field (Image galleries, or fields that meta information such as links with custom text and title text are just two examples).
+Third-party fieldtypes are fields that extend or create new ways for users to enter and organize content. Examples include [Matrix](http://pixelandtonic.com/matrix), which allows multiple data points to be assigned to one field. Image galleries or fields that require meta information such as links with custom text and title text are just two examples.
 
 `Custom Fields` are grouped together to form a `Field Group`.
 
@@ -38,7 +38,7 @@ Third-party fieldtypes are fields that extend or create new ways for users to en
 ## Entries
 `Entries` are pieces of content. Each entry is assigned to a `Channel`. Following our original example, a blog article or an indivsual video are both examples of `Entries`.
 
-Each entry will have the custom fields assigned that entry's `Channel`.
+When creating an entry, a user will be presented with the the `Custom Fields` assigned that entry's `Channel`.
 
 ##### Example:
 	The Channel 'Blog' is assigned Field Group 'Blog Fields', which in turn contains three Custom Fields: 'Title', 'Image', 'Text Content'
@@ -57,7 +57,7 @@ Templates serve two purposes:
 1. Generating the URL used to access them on the web
 2. Housing content, both `Entries` and 'hard-coded'
 
-**Templates are used to generate site URLS.** Like `Custom Fields`, `Template Files` are saved in `Template Groups`. `Template Groups` are a **folder** which contain `Template Files`. The name of a group and the name of the file dictate the URL used to access them.
+**Templates are used to generate site URLs.** Similar to `Custom Fields`, `Template Files` are saved in groups, called `Template Groups`. `Template Groups` are a **folder** which contain `Template Files`. The name of a group and the name of the file dictate the URL used to access them.
 
 > "Template" and "Page" are terms that are often used interchangably.
 
@@ -72,5 +72,5 @@ Templates serve two purposes:
 	
 	http://mysite.com/blog
 
-**Templates are used to house and display content.** This is often either a listing of `Entries` or a single entry. A template may be a page listing recent blog articles (multiple `Entries`), may be contain only an indivsual blog article (a single entry).
+**Templates are used to house and display content.** This is often either a listing of `Entries` or a single entry. A template may be a page listing recent blog articles or videos (multiple `Entries`) or might contain only an indivsual blog article or video (a single entry).
 
