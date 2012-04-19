@@ -1,0 +1,17 @@
+/* the humans responsible & colophon */
+/* humanstxt.org */
+
+
+/* TEAM */
+  Code Monkey: Chris Fidao
+  Site: fideloper.com
+  Twitter: @fideloper
+  Location: New Haven, CT
+
+/* THANKS */
+  Contributors on github: https://github.com/fideloper/How-EE-Works
+
+/* SITE */
+  Standards: HTML5, CSS3
+  Components: See Standards.
+  Software: A LAMP server, of course.
