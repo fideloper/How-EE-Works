@@ -1,13 +1,13 @@
 # This is how Expression Engine works
 
-You should already know what [Expression Engine is](http://expressionengine.com/) before reading this.
+This is a brief explanation behind content management in Expression Engine. This will be most useful to you if you already know what [Expression Engine is](http://expressionengine.com/) is before reading this.
 
 ## Channels
 `Channels` are content types. A blog section is a content type. A video feed is a content type. An image rotator might be a content type, or it might be a presentation of another content type such as a blog. 
 
 > "Channel" and "Content Type" are terms that are often used interchangably.
 
-## Field Groups"
+## Field Groups
 `Field Groups` are a collection of `Custom Fields` that belong together. A `Field Group` is assigned to a `Channel`. In this way, a `Channel` is given meaning and context by the type and grouping of fields it is assigned.
 
 ## Custom Fields
@@ -25,7 +25,7 @@ Third-party fieldtypes are fields that extend or create new ways for users to en
 
 `Custom Fields` are grouped together to form a `Field Group`.
 
-### Example:
+##### Example:
 	A Blog article needs a Title, Image and Text Content fields.
 
 	* Channel: Blog
@@ -40,7 +40,7 @@ Third-party fieldtypes are fields that extend or create new ways for users to en
 
 Each entry will have the custom fields assigned that entry's `Channel`.
 
-### Example:
+##### Example:
 	The Channel 'Blog' is assigned Field Group 'Blog Fields', which in turn contains three Custom Fields: 'Title', 'Image', 'Text Content'
 	
 	Therefore, a Blog entry will have these three fields for a user to fill out:
@@ -61,7 +61,7 @@ Templates serve two purposes:
 
 > "Template" and "Page" are terms that are often used interchangably.
 
-### Example
+##### Example:
 	*Example 1:
 	Template Group 'blog.group' contains template 'article.html'. To view this template in a web browser, we go to:
 	
