@@ -1,6 +1,6 @@
-# This is how Expression Engine works
+# This is how ExpressionEngine works
 
-This is a brief explanation behind content management in Expression Engine. This will be most useful to you if you have a basic understanding of what [Expression Engine is](http://expressionengine.com/) is.
+This is a brief explanation behind content management in ExpressionEngine. This will be most useful to you if you have a basic understanding of what [ExpressionEngine is](http://expressionengine.com/) is.
 
 ## Channels
 `Channels` are content types. For example, a blog section is a content type. A video feed is a content type. An [image rotator](http://webdesignandsuch.com/posts/fancymoves/index.html) could be its own content type, or it could be the presentation of a content type, such as featured blog articles. 
