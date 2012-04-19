@@ -114,7 +114,7 @@ pre code {
 
 /* Custom */
 body {
-    padding: 0 0 200px 0;
+    padding: 0;
     margin: 0;
 }
 h2 {
@@ -123,10 +123,8 @@ h2 {
 #footer {
     background: #f1f0f0;
     border-top: 1px solid #737373;
-    bottom: 0;
-    height: 30px;
+    margin: 100px 0 0 0;
     padding: 10px;
-    position: fixed;
     width: 100%;
 }
 #footer ul, #footer li {
@@ -135,7 +133,6 @@ h2 {
     list-style: none;
 }
 #footer ul {
-    width: 768px;
     margin: 0 auto;
 }
 #footer li {
@@ -144,9 +141,25 @@ h2 {
     margin-right: 25px;
 }
 
+#footer .legal {
+    font-size: 11px;
+    line-height: 14px;
+    margin: 0;
+}
+
 @media screen and (min-width: 768px) {
     #content {
         width: 748px;
         margin:10px auto;
     }
+
+    #footer ul {
+        width: 748px;
+        margin: 0 auto;
+    }
 }
+
+/* Contain floats: h5bp.com/q */
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+.clearfix { *zoom: 1; }

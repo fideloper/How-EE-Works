@@ -25,9 +25,10 @@ $content = Markdown(file_get_contents('README.md'));
 	Just to let you know, semicolons are OK in my book.
 	-->
 	<div id="footer">
-		<ul>
+		<ul class="clearfix">
 			<li>Started by <a href="http://twitter.com/fideloper">@fideloper</a></li>
 			<li>Fork and contribute on <a href="https://github.com/fideloper/How-EE-Works">Github</a></li>
+			<li class="legal">This was created with the intent of being <strong>simple</strong> &amp; <strong>community driven</strong>.<br />It is powered by Markdown.</li>
 		</ul>
 	</div>
 	<script type="text/javascript">
