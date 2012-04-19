@@ -20,7 +20,9 @@ $content = Markdown(file_get_contents('README.md'));
 <?php echo $content; ?>
 	</div>
 	<!--
-	Oh, hai! Thanks for viewing the source.
+	Oh, hai! Thanks for viewing the source. This is the site, and stuff.
+
+	Just to let you know, semicolons are OK in my book.
 	-->
 	<div id="footer">
 		<ul>
