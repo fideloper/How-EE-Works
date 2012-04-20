@@ -72,5 +72,5 @@ Templates serve two purposes:
 	
 	http://mysite.com/blog
 
-**Templates are used to house and display content.** This is often either a listing of `Entries` or a single entry. A template may be a page listing recent blog articles or videos (multiple `Entries`) or might contain only an indivsual blog article or video (a single entry).
+**Templates are used to house and display content.** This is often either a listing of `Entries` or a single entry. A template may be a page listing recent blog articles or videos (multiple `Entries`) or might contain only an indivisual blog article or video (a single entry).
 
