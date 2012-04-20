@@ -36,7 +36,7 @@ Third-party fieldtypes are fields that extend or create new ways for users to en
 		* Text Content
 
 ## Entries
-`Entries` are pieces of content. Each entry is assigned to a `Channel`. Following our original example, a blog article or an indivsual video are both examples of `Entries`.
+`Entries` are pieces of content. Each entry is assigned to a `Channel`. Following our original example, a blog article or an indivisual video are both examples of `Entries`.
 
 When creating an entry, a user will be presented with the the `Custom Fields` assigned that entry's `Channel`.
 
