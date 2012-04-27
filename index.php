@@ -1,15 +1,15 @@
 <?php
-//Init variables. No one likes to see php Notices.
-$file = '';
+//Init variables. No one likes to see php Notices. Defaults for this app set.
+$file = 'README.md';
 $title = '';
-//Check for which content
-if(!isset($_GET['file']) || $_GET['file'] === '') {
-	$file = 'README.md';
-} else {
-	//htaccess only passes $_GET if file exists.
-	$file = $_GET['file'];
-	$title = ucfirst(substr($file, 0, count($file) - 4));
-	$title = $title . ' | ';
+//Check for content other than home page
+if(isset($_GET['file']) && $_GET['file'] !== '') {
+	//htaccess only passes $_GET if file exists, but we still check in case index.php?file=xxx.md is accessed directly
+	if(file_exists('./'.$_GET['file'])) {
+		$file = $_GET['file'];
+		$title = ucfirst(substr($file, 0, count($file) - 4));
+		$title = $title . ' | ';
+	}
 }
 //Include Markdown
 require_once('./lib/markdown.php');
