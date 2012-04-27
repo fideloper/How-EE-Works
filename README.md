@@ -82,7 +82,7 @@ Templates serve two purposes:
 
 ## Further Reading
 * This [blog post](http://www.lucentwebdesign.co.uk/index.php/blog/entry/content_modelling_with_expressionengine) contains a great overview of the same concepts as above.
-* More from ExpressionEngine directly found [here](http://expressionengine.com/user_guide/getting_started/the_big_picture.html).
+* Related information directly from ExpressionEngine found [here](http://expressionengine.com/user_guide/getting_started/the_big_picture.html).
 
 ## Next Topic
 [ExpressionEngine development concepts](/development.md).
