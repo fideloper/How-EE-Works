@@ -6,7 +6,7 @@ Development in ExpressionEngine covers two areas:
 1. **Basic:** Creating `Channels`, `Custom Fields` and `Templates` to display content
 2. **fAdvanced:** Creating or using custom code to augment ExpressionEngine's out-of-the-box functionality
 
-## Basics
+## Basic
 The basics of ExpressionEngine development are creating what the [main page](/) describes: Setting up `Channels`, `Field Groups` and `Custom Fields`. While this is basic to ExpressionEngine, it does require planning and experience to do well. A developer will review a design or specifications document and plan on how one will accomplish building the site and meet those needs.
 
 Initial plans often need to change to meet site requirements as technical limitations are met or upon realizing that ExpressionEngine treats certain functionality in ways one does not expect. Experience will help a developer plan ahead for these "gotchas." For the most part, ExpressionEngine does not limit how one can treat content. However, some limitations do exist, as is true for all Content Management Systems. Experience is the best teacher.

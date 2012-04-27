@@ -123,19 +123,19 @@ h2 {
 #footer {
     background: #f1f0f0;
     border-top: 1px solid #737373;
-    margin: 100px 0 0 0;
+    margin: 0;
     padding: 10px;
     width: 100%;
 }
-#footer ul, #footer li {
+.nav, .nav li {
     margin: 0;
     padding: 0;
     list-style: none;
 }
-#footer ul {
+.nav, {
     margin: 0 auto;
 }
-#footer li {
+.nav li {
     float: left;
     line-height: 30px;
     margin-right: 25px;
@@ -147,13 +147,20 @@ h2 {
     margin: 0;
 }
 
+#nav {
+    margin: 100px 0 0 0;
+    padding: 10px;
+    width: 100%;
+}
+
+
 @media screen and (min-width: 768px) {
     #content {
         width: 748px;
         margin:10px auto;
     }
 
-    #footer ul {
+    .nav     {
         width: 748px;
         margin: 0 auto;
     }

@@ -37,8 +37,14 @@ $content = Markdown(file_get_contents($file));
 
 	Just to let you know, semicolons are OK in my book.
 	-->
+	<div id="nav">
+		<ul class="clearfix nav">
+			<li><a href="/">Home</a></li>
+			<li><a href="/development.md">Development</a></li>
+		</ul>
+	</div>
 	<div id="footer">
-		<ul class="clearfix">
+		<ul class="clearfix nav">
 			<li>Started by <a href="http://twitter.com/fideloper">@fideloper</a></li>
 			<li>Fork and contribute on <a href="https://github.com/fideloper/How-EE-Works">Github</a></li>
 			<li class="legal">This was created with the intent of being <strong>simple</strong> &amp; <strong>community driven</strong>.<br />It is powered by Markdown.</li>
