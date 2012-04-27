@@ -1,0 +1,4 @@
+RewriteEngine On 
+RewriteCond $1 \.(md|markdown)$ [NC]
+RewriteCond %{REQUEST_FILENAME} -f 
+RewriteRule ^(.*)$ /index.php?file=$1 [L]
