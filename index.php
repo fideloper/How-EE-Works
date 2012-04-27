@@ -1,10 +1,23 @@
 <?php
+//Init variables. No one likes to see php Notices.
+$file = '';
+$title = '';
+//Check for which content
+if(!isset($_GET['file']) || $_GET['file'] === '') {
+	$file = 'README.md';
+} else {
+	//htaccess only passes $_GET if file exists.
+	$file = $_GET['file'];
+	$title = ucfirst(substr($file, 0, count($file) - 4));
+	$title = $title . ' | ';
+}
+//Include Markdown
 require_once('./lib/markdown.php');
-$content = Markdown(file_get_contents('README.md'));
+$content = Markdown(file_get_contents($file));
 ?><!DOCTYPE html>
 <html>
 <head>
-	<title>How ExpressionEngine Works</title>
+	<title><?=$title;?>How ExpressionEngine Works</title>
 	<meta name="description" content="A brief explanation behind content management in ExpressionEngine" />
 	<meta name="keywords" content="bioshock infinite,bioshock" />
 	<meta name="author" content="@fideloper and contributors">

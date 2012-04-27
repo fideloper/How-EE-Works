@@ -1,6 +1,11 @@
 # This is how ExpressionEngine works
 
-This is a brief explanation behind content management in ExpressionEngine. This will be most useful to you if you have a basic understanding of what [ExpressionEngine is](http://expressionengine.com/) is.
+This is a brief explanation behind content management in ExpressionEngine. This will be most useful to you if you have a basic understanding of what [ExpressionEngine](http://expressionengine.com/) is.
+
+## Overview
+ExpressionEngine is a **Content Management System** which allows users to add content into well-defined "containers" [`Channels`]. Each "container" is given meaning and definition through a set of fields assigned to it [`Field Groups` which contain a set of `Custom Fields`]. This data is displayed to visitors of a site through the site template system [`templates`].
+
+The following is an overview of those concepts and how they work together to create a fully-functioning website.
 
 ## Channels
 `Channels` are content types. For example, a blog section is a content type. A video feed is a content type. An [image rotator](http://webdesignandsuch.com/posts/fancymoves/index.html) could be its own content type, or it could be the presentation of a content type, such as featured blog articles. 
@@ -74,3 +79,10 @@ Templates serve two purposes:
 
 **Templates are used to house and display content.** This is often either a listing of `Entries` or a single entry. A template may be a page listing recent blog articles or videos (multiple `Entries`) or might contain only an indivisual blog article or video (a single entry).
 
+
+## Further Reading
+* This [blog post](http://www.lucentwebdesign.co.uk/index.php/blog/entry/content_modelling_with_expressionengine) contains a great overview of the same concepts as above.
+* More from ExpressionEngine directly found [here](http://expressionengine.com/user_guide/getting_started/the_big_picture.html).
+
+## Coming Soon
+ExpressionEngine development concepts. No code, just an overview.
